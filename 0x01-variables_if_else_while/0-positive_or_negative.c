@@ -9,20 +9,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* positive or negative number */
-	{
+	/* main - determine if a number is positive, negative, or zero*/
 	 * if (n > 0);
-	 * printf ("is positive",n);
-	 * 
 	 * {
-	 * else if (n = 0);
-	 * printf ("is zero");
-	 *}
+		 * print f("%d is positive\n", n);
+		 * }
+	 * else if (n == 0);
 	 * {
+		 * printf("%d is zero\n", n);
+			 * }
 	 * else if (n < 0);
-	 * printf ("is negative", n);
+	 * {
+		 *printf("%d is negative\n", n) 
 	 * }
-	 * else
 	 * return (0);
 	 * }
-}
