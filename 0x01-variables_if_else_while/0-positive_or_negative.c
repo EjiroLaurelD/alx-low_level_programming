@@ -8,19 +8,21 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n =rand() - RAND_MAX / 2;
-	/* 
+	n = rand() - RAND_MAX / 2;
+	/* positive or negative number */
+	{
+	 * if (n > 0);
+	 * printf ("is positive",n);
+	 * 
 	 * {
-	 * if (n >0);
-	 * printf ("is positive");
-	 * }
-	 * {
-	 * if (n=0);
+	 * else if (n = 0);
 	 * printf ("is zero");
 	 *}
 	 * {
-	 * if (n<0);
-	 * printf ("is negative");
+	 * else if (n < 0);
+	 * printf ("is negative", n);
 	 * }
+	 * else
 	 * return (0);
 	 * }
+}
