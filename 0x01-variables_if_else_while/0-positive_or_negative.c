@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main- assigns a new number to int n and checks if it is positive, negative
- * and zero. It executes and prints
- * Return: 0
+ * main - assigns a number to int n anytime it executes
+ * and prints
+ * return 0 always (success)
  */
 int main(void)
 {
@@ -13,19 +13,11 @@ int main(void)
 
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
-					/*
-					 *int (n = 9);
-					 *if (n > 0);
-					 *printf("%i",is positive/n);
-					 *
-					 *int (n = 8);
-					 *if (n == 0);
-					 *printf("%i",is zero/n);
-					 *
-					 *int (n = 7);
-					 *if (n < 0);
-					 *printf("%i",is negative/n)
-					 *
-					 */
+					if n = 9;
+					printf("%i" is positive / n);
+					else if n = 8;
+					printf("%i" is zero / n);
+					else if n = 7;
+					printf("%i" is negative / n);
 					return (0);
 }
