@@ -1,0 +1,1 @@
+READMEfor bit manipulation
